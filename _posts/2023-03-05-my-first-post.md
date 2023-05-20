@@ -6,4 +6,4 @@ date: 2023-03-05
 categories: sub directory
 ---
 
-Check out [my new page](/pages/my-first-page)
+Check out [my new page](/about)

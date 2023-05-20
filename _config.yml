@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Ernesto Sandoval"
   avatar           : "/assets/images/25070515.png"
-  bio              : "I am an **amazing** person."
-  # location         : "Somewhere"
+  bio              : "My name is Ernesto. This is my site. Made using Jekyll and Minimal Mistakes."
+  location         : "🇺🇸"
   email            :
   links:
     - label: "Email"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/ernestosandoval"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -285,17 +285,18 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
-      share: true
-      related: true
+      share: # true
+      related: # true
 
-defaults:
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true

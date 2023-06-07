@@ -121,33 +121,10 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  height: 36px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-
-  img {
-    max-width: 110px;
-    border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
-  }
-}
-
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
+  // padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
 
@@ -177,13 +154,53 @@
   font-size: $type-size-5;
 }
 
+.side-by-side {
+  display: flex;
+}
+
+.author__avatar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 110px;
+  padding-top: 5px;
+  padding-right: 5px;
+  // display: table-cell;
+  // vertical-align: top;
+  // width: 36px;
+  // height: 36px;
+
+  // @include breakpoint($large) {
+  //   display: block;
+  //   width: auto;
+  //   height: auto;
+  // }
+
+  // img {
+  //   max-width: 110px;
+  //   border-radius: 50%;
+
+  //   @include breakpoint($large) {
+  //     padding: 5px;
+  //     border: 1px solid $border-color;
+  //   }
+  // }
+}
+
 .author__bio {
   margin: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
 
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
+  // @include breakpoint($large) {
+  //   margin-top: 10px;
+  //   margin-bottom: 20px;
+  // }
+}
+.author__bio p {
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
 }
 
 .author__urls-wrapper {

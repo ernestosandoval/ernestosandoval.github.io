@@ -18,7 +18,7 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    width: calc(#{$right-sidebar-width-narrow});
     // opacity: 0.75;
     // -webkit-transition: opacity 0.2s ease-in-out;
     // transition: opacity 0.2s ease-in-out;
@@ -37,12 +37,13 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width});
   }
 
   > * {
     margin-top: 1em;
     margin-bottom: 1em;
+    margin-right: 20px;
   }
 
   h2,
@@ -145,7 +146,6 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
     margin-bottom: 10px;
   }
 }
@@ -276,15 +276,15 @@
     display: block;
   }
 
-  @include breakpoint($large) {
-    display: block;
-    position: relative;
-    // margin: 0;
-    // padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
+  // @include breakpoint($large) {
+  //   display: block;
+  //   position: relative;
+  //   margin: 0;
+  //   padding: 0;
+  //   border: 0;
+  //   background: transparent;
+  //   box-shadow: none;
+  // }
 
   // &:before {
   //   display: block;

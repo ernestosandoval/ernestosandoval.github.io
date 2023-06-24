@@ -461,3 +461,10 @@
 		display: inline-block;
 	}
 }
+
+.under__construction {
+  border: 1px solid $border-color;
+  padding: 13px;
+  margin-top: -15px;
+  text-align: center;
+}

@@ -2,8 +2,6 @@
    STYLE RESETS
    ========================================================================== */
 
-* { box-sizing: border-box; }
-
 html {
   font-size: 20px;
 
@@ -14,5 +12,4 @@ html {
   @include breakpoint($x-large) {
     font-size: 20px;
   }
-
 }

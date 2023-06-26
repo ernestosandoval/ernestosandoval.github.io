@@ -1,7 +1,7 @@
 .under__construction {
   border: 1px solid $border-color;
   padding: 13px;
-  margin-top: -16px;
+  margin-top: -15px;
   text-align: center;
 }
 
@@ -17,9 +17,4 @@
   display: flex;
   padding: 3px;
   padding-top: 5px;
-}
-
-.author__bio p {
-  margin: 0; /* Reset default margin */
-  padding: 0; /* Reset default padding */
 }

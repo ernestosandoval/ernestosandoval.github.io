@@ -18,15 +18,14 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 20px);
-    margin-right: 20px;
-    // opacity: 0.75;
-    // -webkit-transition: opacity 0.2s ease-in-out;
-    // transition: opacity 0.2s ease-in-out;
+    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    opacity: 0.75;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 
-    // &:hover {
-    //   opacity: 1;
-    // }
+    &:hover {
+      opacity: 1;
+    }
 
     &.sticky {
       overflow-y: auto;
@@ -38,14 +37,12 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 20px);
-    margin-right: 20px;
+    width: calc(#{$right-sidebar-width} - 1em);
   }
 
   > * {
     margin-top: 1em;
     margin-bottom: 1em;
-    padding-top: 4px;
   }
 
   h2,
@@ -124,10 +121,33 @@
    Author profile and links
    ========================================================================== */
 
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 110px;
+    border-radius: 50%;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid $border-color;
+    }
+  }
+}
+
 .author__content {
-  display: block;
-  // vertical-align: top;
-  // padding-left: 15px;
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
 
@@ -146,80 +166,33 @@
 
 .author__name {
   margin: 0;
-  display: inline;
 
   @include breakpoint($large) {
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 }
 .sidebar .author__name {
-  // font-family: $sans-serif;
-  // font-size: $type-size-5;
-  font-family: Arial;
-  font-size: 1.1em;
-}
-
-.side-by-side {
-  display: flex;
-  padding: 3px;
-  padding-top: 5px;
-}
-
-.author__avatar {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  max-width: 200px;  
-  // padding-top: 5px;
-  margin-right: 20px;
-  // display: table-cell;
-  // vertical-align: top;
-  // width: 36px;
-  // height: 36px;
-
-  // @include breakpoint($large) {
-  //   display: block;
-  //   width: auto;
-  //   height: auto;
-  // }
-
-  img {
-    min-width: 200px;
-    max-height: 478px;
-    // border-radius: 50%;
-
-    // @include breakpoint($large) {
-    //   padding: 5px;
-    //   border: 1px solid $border-color;
-    // }
-  }
+  font-family: $sans-serif;
+  font-size: $type-size-5;
 }
 
 .author__bio {
   margin: 0;
-  flex: 1;
-  display: flex;
-  align-items: center;
 
-  // @include breakpoint($large) {
-  //   margin-top: 10px;
-  //   margin-bottom: 20px;
-  // }
-}
-.author__bio p {
-  margin: 0; /* Reset default margin */
-  padding: 0; /* Reset default padding */
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 .author__urls-wrapper {
-  // position: relative;
-  display: block;
-  // vertical-align: middle;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
-  // cursor: pointer;
-  border: 1px solid $border-color;
-  margin-top: 21px;
+  cursor: pointer;
 
   li:last-child {
     a {
@@ -266,51 +239,48 @@
 }
 
 .author__urls {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-  // position: absolute;
-  // right: 0;
-  // list-style-type: none;
-  // border: 1px solid $border-color;
-  // border-radius: $border-radius;
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
   background: $background-color;
-  // box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+  box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
   cursor: default;
-  // columns: 2;
 
   &.is--visible {
     display: block;
   }
 
-  // @include breakpoint($large) {
-  //   display: block;
-  //   position: relative;
-  //   margin: 0;
-  //   padding: 0;
-  //   border: 0;
-  //   background: transparent;
-  //   box-shadow: none;
-  // }
+  @include breakpoint($large) {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
 
-  // &:before {
-  //   display: block;
-  //   content: "";
-  //   position: absolute;
-  //   top: -11px;
-  //   left: calc(50% - 10px);
-  //   width: 0;
-  //   border-style: solid;
-  //   border-width: 0 10px 10px;
-  //   border-color: $border-color transparent;
-  //   z-index: 0;
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: $border-color transparent;
+    z-index: 0;
 
-  //   @include breakpoint($large) {
-  //     display: none;
-  //   }
-  // }
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
 
   &:after {
     display: block;
@@ -335,8 +305,6 @@
   }
 
   li {
-    flex-basis: 50%;
-    height: 23px;
     white-space: nowrap;
   }
 
@@ -356,13 +324,6 @@
   }
 }
 
-.contact__card {
-  background-color: $footer-background-color;
-  font-size: 15px;
-  padding-top: 1px;
-  padding-bottom: 3px;
-  padding-left: 6px;
-}
 /*
    Wide Pages
    ========================================================================== */

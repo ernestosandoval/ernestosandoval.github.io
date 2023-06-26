@@ -4,21 +4,18 @@
 
 .masthead {
   position: relative;
-  // border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background-color: $footer-background-color;
 
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    padding-top: 8.5px;
-    padding-bottom: 8.5px;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;

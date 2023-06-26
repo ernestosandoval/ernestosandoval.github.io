@@ -1,0 +1,18 @@
+/* ==========================================================================
+   STYLE RESETS
+   ========================================================================== */
+
+* { box-sizing: border-box; }
+
+html {
+  font-size: 20px;
+
+  @include breakpoint($medium) {
+    font-size: 20px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 20px;
+  }
+
+}

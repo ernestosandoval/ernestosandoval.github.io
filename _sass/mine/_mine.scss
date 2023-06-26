@@ -1,0 +1,25 @@
+.under__construction {
+  border: 1px solid $border-color;
+  padding: 13px;
+  margin-top: -16px;
+  text-align: center;
+}
+
+.contact__card {
+  background-color: $footer-background-color;
+  font-size: 15px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+}
+
+.side-by-side {
+  display: flex;
+  padding: 3px;
+  padding-top: 5px;
+}
+
+.author__bio p {
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}

@@ -4,7 +4,7 @@ layout: archive-mine
 
 {{ content }}
 
-<div class="my__frame">
+<div class="my__frame-archive">
 <h3 class="archive__subtitle-mine">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
@@ -20,6 +20,8 @@ layout: archive-mine
   {% endfor %}
 </div>
 </div>
+
+{% include my-blurbs.html %}
 
 {% include paginator.html %}
 

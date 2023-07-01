@@ -1,4 +1,4 @@
-.contact__card {
+.my__header-highlighted {
   background-color: $footer-background-color;
   font-size: $type-size-6;
   padding: 2px;
@@ -13,4 +13,27 @@
   display: block;
   width: 100%;
   margin-bottom: 1em;
+}
+
+.my__frame-archive {
+  margin-bottom: 1em;
+}
+
+.my__frame-blurb {
+  margin-bottom: 1em;
+}
+
+.blurb__content {
+  font-size: $type-size-6;
+}
+.blurb__content p{
+  margin: 0px;
+}
+
+.my__header {
+  color: $primary-color;
+  margin-bottom: 0px;
+  margin-top: 1em;
+  font-size: $type-size-6;
+  line-height: 1.5;
 }

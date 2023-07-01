@@ -1,0 +1,20 @@
+<!-- {% assign author = page.author | default: page.authors[0] | default: site.author %} -->
+<!-- {% assign author = site.data.authors[author] | default: author %} -->
+{% assign mine = site.mine | default site.mine %}
+
+<div class="my__frame-blurb">
+  <div class="my__header-highlighted"><b>{{ author.name }}'s Blurbs</b></div>
+  {% if mine.blurbs.bio %}
+    <h3 class="my__header">About me:</h3>
+    <div class="blurb__content" itemprop="description">
+      {{ mine.blurbs.bio | markdownify }}
+    </div>
+  {% endif %}
+
+  {% if mine.blurbs.bio %}
+    <h3 class="my__header">Who I'd like to meet:</h3>
+    <div class="blurb__content" itemprop="description">
+      {{ mine.blurbs.meet | markdownify }}
+    </div>
+  {% endif %}
+</div>

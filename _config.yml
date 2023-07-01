@@ -300,3 +300,6 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
+
+mine:
+  # song             : "/assets/audio/song.m4a"

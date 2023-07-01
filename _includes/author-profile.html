@@ -247,4 +247,8 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
+  
+  {% if site.mine.song %}
+    <audio src="{{ site.mine.song | relative_url }}" controls class="my__audio"></audio>
+  {% endif %}
 </div>

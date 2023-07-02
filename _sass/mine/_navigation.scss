@@ -3,5 +3,13 @@
      ========================================================================== */
 
 .greedy-nav {
-  background: $footer-background-color;
+  background: $header-background-color;
+
+  .visible-links {
+    a {
+      &:before {
+        content: none;
+      }
+    }
+  }
 }

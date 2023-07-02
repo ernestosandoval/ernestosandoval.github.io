@@ -1,5 +1,13 @@
 .my__header-highlighted {
-  background-color: $footer-background-color;
+  background-color: $header-highlight-background-color;
+  color: $header-highlight-text-color;
+  font-size: $type-size-6;
+  padding: 2px;
+}
+
+.my__header-highlighted-blurbs {
+  background-color: $header-highlight-background-color-2;
+  color: $header-highlight-text-color-2;
   font-size: $type-size-6;
   padding: 2px;
 }
@@ -31,7 +39,7 @@
 }
 
 .my__header {
-  color: $primary-color;
+  color: $header-highlight-text-color-2;
   margin-bottom: 0px;
   margin-top: 1em;
   font-size: $type-size-6;

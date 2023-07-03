@@ -5,7 +5,7 @@ excerpt: A proof that that the sum of the first n cubes is the square of the nth
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-You ask a person is they want to keep one dollar or add the next cube and give it to the next person. If the $$n$$th person keeps the money, the amount they receive is the sum of the first $$n$$ cubes. 
+You ask a person if they want to keep one dollar or add the next cube and give it to the next person. If the $$n$$th person keeps the money, the amount they receive is the sum of the first $$n$$ cubes. 
 
 Here is the python code to calculate this number:
 ```python

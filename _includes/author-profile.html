@@ -3,7 +3,7 @@
 
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
-  <div class="author__content">
+  <div class="my__frame author__content">
     <h3 class="author__name p-name" itemprop="name">
       <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
     </h3>
@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div class="author__urls-wrapper">
+  <div class="my__frame author__urls-wrapper">
     <!-- <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button> -->
     <div class="my__header-highlighted"><b>Contacting {{ author.name }}</b></div>
     <ul class="author__urls social-icons">

@@ -3,17 +3,17 @@
 {% assign mine = site.mine | default site.mine %}
 
 <div class="my__frame my__frame-blurbs">
-  <div class="my__header-highlighted my__header-highlighted-blurbs"><b>{{ author.name }}'s Blurbs</b></div>
+  <div class="my__frame-header my__frame-header-blurbs"><b>{{ author.name }}'s Blurbs</b></div>
   <div class="my__blurbs">
     {% if mine.blurbs.bio %}
-      <h3 class="my__header">About me:</h3>
+      <h3 class="blurb__title">About me:</h3>
       <div class="blurb__content" itemprop="description">
         {{ mine.blurbs.bio | markdownify }}
       </div>
     {% endif %}
 
     {% if mine.blurbs.bio %}
-      <h3 class="my__header">Who I'd like to meet:</h3>
+      <h3 class="blurb__title">Who I'd like to meet:</h3>
       <div class="blurb__content" itemprop="description">
         {{ mine.blurbs.meet | markdownify }}
       </div>

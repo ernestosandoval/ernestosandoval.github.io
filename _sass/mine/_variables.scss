@@ -3,30 +3,3 @@ $max-width: $x-large;
 // $right-sidebar-width-narrow: 409.6px;
 $right-sidebar-width: 409.6px;
 // $right-sidebar-width-wide: 409.6px;
-
-$black: #000000;
-$white: #ffffff;
-
-$background-color: $white;
-$text-color: $black;
-$muted-text-color: $black;
-$border-color: $black;
-$primary-color: #00adb5 !default;
-
-$header-highlight-background-color: #6699cc;
-$header-highlight-text-color: $white;
-$header-highlight-background-color-2: #fc9;
-$header-highlight-text-color-2: #cc6633;
-
-
-$code-background-color: mix(#000, $background-color, 15%) !default;
-$code-background-color-dark: mix(#000, $background-color, 20%) !default;
-$form-background-color: mix(#000, $background-color, 15%) !default;
-$footer-background-color: #6699cc;
-$header-background-color: #003399;
-$link-color: #0000FF;
-$link-color-hover: #0000FF;
-$link-color-visited: #800080;
-$masthead-link-color: $white;
-$masthead-link-color-hover: $white;
-$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;

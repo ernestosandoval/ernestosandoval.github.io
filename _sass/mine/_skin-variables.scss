@@ -1,0 +1,31 @@
+$black: #000000;
+$white: #ffffff;
+$light-blue: #69c;
+$light-orange: #fc9;
+$dark-orange: #c63;
+
+$background-color: $white;
+$text-color: $black;
+$muted-text-color: $black;
+$border-color: $black;
+$header-background-color: #039;
+$footer-background-color: $light-blue;
+$footer-text-color: $black;
+
+$link-color: #0000FF;
+$link-color-hover: $link-color;
+$link-color-visited: #800080;
+$masthead-link-color: $white;
+$masthead-link-color-hover: $white;
+
+$frame-background-color: $white;
+$frame-header-background-color: $light-blue;
+$frame-header-text-color: $white;
+$frame-header-background-color-blurbs: $light-orange;
+$frame-header-text-color-blurbs: $dark-orange;
+$blurb-title-color: $dark-orange;
+
+// $code-background-color: mix(#000, $background-color, 15%) !default;
+// $code-background-color-dark: mix(#000, $background-color, 20%) !default;
+// $form-background-color: mix(#000, $background-color, 15%) !default;
+// $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;

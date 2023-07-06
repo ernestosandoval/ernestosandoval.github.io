@@ -1,13 +1,13 @@
-.my__header-highlighted {
-  background-color: $header-highlight-background-color;
-  color: $header-highlight-text-color;
+.my__frame-header {
+  background-color: $frame-header-background-color;
+  color: $frame-header-text-color;
   font-size: $type-size-6;
   padding: 2px;
 }
 
-.my__header-highlighted-blurbs {
-  background-color: $header-highlight-background-color-2;
-  color: $header-highlight-text-color-2;
+.my__frame-header-blurbs {
+  background-color: $frame-header-background-color-blurbs;
+  color: $frame-header-text-color-blurbs;
 }
 
 .side-by-side {
@@ -27,8 +27,8 @@
   margin: 0px;
 }
 
-.my__header {
-  color: $header-highlight-text-color-2;
+.blurb__title {
+  color: $blurb-title-color;
   margin-bottom: 0px;
   margin-top: 1em;
   font-size: $type-size-6;
@@ -36,7 +36,8 @@
 }
 
 .my__frame {
-  background-color: $white;
+  background-color: $frame-background-color;
+  color: $text-color;
   margin-bottom: 1em;
   padding: 5px;
 }

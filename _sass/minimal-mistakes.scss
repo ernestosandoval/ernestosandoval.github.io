@@ -7,6 +7,7 @@
 /* Variables */
 @import "minimal-mistakes/variables";
 @import "mine/variables";
+@import "mine/skin-variables";
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
@@ -48,5 +49,6 @@
 @import "mine/sidebar";
 @import "mine/archive";
 @import "mine/archive-mine";
+@import "mine/footer";
 @import "mine/skin";
 

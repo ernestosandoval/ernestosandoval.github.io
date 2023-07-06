@@ -8,26 +8,15 @@
 .my__header-highlighted-blurbs {
   background-color: $header-highlight-background-color-2;
   color: $header-highlight-text-color-2;
-  font-size: $type-size-6;
-  padding: 2px;
 }
 
 .side-by-side {
   display: flex;
-  padding: 5px;
 }
 
 .my__audio {
   display: block;
   width: 100%;
-  margin-bottom: 1em;
-}
-
-.my__frame-archive {
-  margin-bottom: 1em;
-}
-
-.my__frame-blurb {
   margin-bottom: 1em;
 }
 
@@ -48,5 +37,15 @@
 
 .my__frame {
   background-color: $white;
-  // border: 1px solid #444444;
+  margin-bottom: 1em;
+  padding: 5px;
+}
+
+.my__frame-blurbs {
+  padding: 0;
+}
+
+.my__blurbs {
+  padding: 5px;
+  padding-top: 0;
 }

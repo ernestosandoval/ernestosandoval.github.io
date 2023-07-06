@@ -9,8 +9,6 @@
 
 .author__content {
   display: block;
-  padding-left: 0px;
-  margin-bottom: 1em;
 }
 
 .author__name {
@@ -63,7 +61,7 @@
   position: static;
   display: block;
   border: 1px solid $border-color;
-  margin-bottom: 1em;
+  padding: 0px;
 }
 
 .author__urls {

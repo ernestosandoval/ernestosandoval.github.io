@@ -29,3 +29,13 @@ $blurb-title-color: $dark-orange;
 // $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 // $form-background-color: mix(#000, $background-color, 15%) !default;
 // $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+/* system typefaces */
+// $serif: Georgia, Times, serif !default;
+// $sans-serif: "Courier";
+// $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+$sans-serif-narrow: $sans-serif;
+$global-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+$caption-font-family: $serif;

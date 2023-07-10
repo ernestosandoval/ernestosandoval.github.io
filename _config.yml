@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Ernesto Sandoval"
-  avatar           : "/assets/images/prof.png"
+  avatar           : "/assets/images/avatar.png"
   bio              : "My name is Ernesto. This is my site. Made using Jekyll and Minimal Mistakes."
   location         : "🇺🇸"
   email            :

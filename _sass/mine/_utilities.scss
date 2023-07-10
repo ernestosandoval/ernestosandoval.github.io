@@ -1,0 +1,5 @@
+.sticky {
+    @include breakpoint($large) {
+        top: 77px;
+    }
+}

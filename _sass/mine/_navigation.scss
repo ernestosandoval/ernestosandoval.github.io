@@ -30,7 +30,7 @@
 
   &:hover {
     color: $link-color;
-    background-color: rgb($frame-background-color, 100%);
+    background-color: rgba($frame-background-color, 100%);
   }
 
   &:visited:hover {

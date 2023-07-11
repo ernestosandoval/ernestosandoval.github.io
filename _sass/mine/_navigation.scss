@@ -13,3 +13,27 @@
     }
   }
 }
+
+
+.page__meta {
+  color: $text-color;
+}
+
+.pagination {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination--pager {
+  color: $link-color;
+  background-color: $frame-background-color;
+
+  &:hover {
+    color: $link-color;
+    background-color: rgb($frame-background-color, 100%);
+  }
+
+  &:visited:hover {
+    color: $link-color-visited;
+  }
+}

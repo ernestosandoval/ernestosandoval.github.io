@@ -7,3 +7,18 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
+
+.initial-content,
+.search-content {
+  z-index: 1;
+}
+
+.page {
+  .page__inner-wrap {
+    .page__content,
+    .page__meta,
+    .page__share {
+      position: static;
+    }
+  }
+}

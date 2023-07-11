@@ -5,6 +5,7 @@
 .masthead {
   border-bottom: none;
   background-color: $header-background-color;
+  z-index: 0;
 
   &__inner-wrap {
     padding-top: 8.5px;

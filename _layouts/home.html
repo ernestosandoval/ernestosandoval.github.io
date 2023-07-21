@@ -15,10 +15,11 @@ layout: archive-mine
 
   {% assign entries_layout = page.entries_layout | default: 'list' %}
   <div class="entries-{{ entries_layout }}">
-    {% for post in posts %}
+    {% for post in site.posts limit:5 %}
       {% include archive-single-mine.html type=entries_layout %}
     {% endfor %}
   </div>
+  <h3 class="archive__subtitle-mine">[<a href="/posts/">View All Blog Entries</a>]</h3>
 </div>
 
 {% include my-blurbs.html %}

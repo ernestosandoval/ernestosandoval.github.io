@@ -104,3 +104,25 @@
   height: 100%;
   object-fit: cover;
 }
+
+.pics-videos {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.pics-videos p {
+  margin: 0;
+}
+
+.pics-videos a {
+  color: $link-color;
+  
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
+}

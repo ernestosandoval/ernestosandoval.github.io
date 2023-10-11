@@ -104,7 +104,7 @@ $(function() {
     image: {
       tError: '<a href="%url%">Image #%curr%</a> could not be loaded.'
     },
-    removalDelay: 500, // Delay in milliseconds before popup is removed
+    removalDelay: 0, //500, // Delay in milliseconds before popup is removed
     // Class that is added to body when popup is open.
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: "mfp-zoom-in",

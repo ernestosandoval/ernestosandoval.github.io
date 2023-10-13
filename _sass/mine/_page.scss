@@ -28,5 +28,11 @@
 .wide {
   max-width: $x-large;
   margin: auto;
+}
+
+.initial-content {
   background-color: $foreground-color;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
 }

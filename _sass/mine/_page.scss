@@ -24,3 +24,9 @@
     }
   }
 }
+
+.wide {
+  max-width: $x-large;
+  margin: auto;
+  background-color: $foreground-color;
+}

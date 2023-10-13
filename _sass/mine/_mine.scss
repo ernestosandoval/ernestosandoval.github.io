@@ -126,3 +126,21 @@
     outline: 0;
   }
 }
+
+.my-nav {
+  background-color: $footer-background-color;
+  font-size: 0.75em;
+  // display: inline;
+  height: 23.8px;
+}
+
+.my-nav li {
+  display: inline;
+}
+
+.my-nav .visible-links {
+  // height: 23.8px;
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
+}

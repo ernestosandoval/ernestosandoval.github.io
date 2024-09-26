@@ -6,8 +6,6 @@
 
 /* Variables */
 @import "minimal-mistakes/variables";
-@import "mine/variables";
-@import "mine/skin-variables";
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
@@ -42,16 +40,4 @@
 @import "minimal-mistakes/print";
 
 @import "mine/mine";
-@import "mine/masthead";
-@import "mine/navigation";
-@import "mine/page";
-@import "mine/reset";
-@import "mine/sidebar";
-@import "mine/archive";
-@import "mine/archive-mine";
-@import "mine/footer";
-@import "mine/utilities";
-@import "mine/syntax";
-@import "mine/base";
-@import "mine/skin";
-
+@import url('https://spacehey.com/css/my.css?c=611092df99e4404d30746415f0d5f410c6cfd8bcb8c9a4a52e0fefb7b673b213')

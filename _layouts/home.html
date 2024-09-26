@@ -1,11 +1,11 @@
 ---
-layout: archive-mine
+layout: archive-home
 ---
 
 {{ content }}
 
-<div class="my__frame">
-  <h3 class="archive__subtitle-mine">{{ site.author.name }}'s Latest Blog Entry</h3>
+<div class="blog-preview">
+  <h4>{{ site.author.first_name }}'s Latest Blog Entries [<a href="/posts/">View Blog</a>]</h4>
 
   {% if paginator %}
     {% assign posts = paginator.posts %}
@@ -16,13 +16,12 @@ layout: archive-mine
   {% assign entries_layout = page.entries_layout | default: 'list' %}
   <div class="entries-{{ entries_layout }}">
     {% for post in site.posts limit:5 %}
-      {% include archive-single-mine.html type=entries_layout %}
+      {% include archive-single-home.html type=entries_layout %}
     {% endfor %}
   </div>
-  <h3 class="archive__subtitle-mine">[<a href="/posts/">View All Blog Entries</a>]</h3>
 </div>
 
-{% include my-blurbs.html %}
+{% include blurbs.html %}
 
 {% include paginator.html %}
 

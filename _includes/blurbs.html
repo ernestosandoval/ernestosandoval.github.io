@@ -1,0 +1,20 @@
+{% assign mine = site.mine | default site.mine %}
+
+<div class="blurbs">
+  <div class="heading"><h4>{{ author.name }}'s Blurbs</h4></div>
+  <div class="inner">
+    {% if mine.blurbs.bio %}
+      <div class="section">
+        <h4>About me:</h4>
+        {{ mine.blurbs.bio | markdownify }}
+      </div>
+    {% endif %}
+
+    {% if mine.blurbs.bio %}
+      <div class="section">
+        <h4>Who I'd like to meet:</h4>
+        {{ mine.blurbs.meet | markdownify }}
+      </div>
+    {% endif %}
+  </div>
+</div>

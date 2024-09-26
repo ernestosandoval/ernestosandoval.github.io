@@ -14,13 +14,8 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
-  {% include sidebar.html %}
+{% include sidebar.html %}
 
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="my__frame page__title-mine">{{ page.title }}</h1>
-    {% endunless %}
-    {{ content }}
-  </div>
+<div class="archive col right">
+  {{ content }}
 </div>

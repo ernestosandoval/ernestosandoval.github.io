@@ -2,35 +2,23 @@
    FOOTER
    ========================================================================== */
 
-.page__footer {
+footer {
   @include clearfix;
   float: left;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 10px 0 10px;
   width: 100%;
-  margin-top: 3em;
   color: $muted-text-color;
-  -webkit-animation: $intro-transition;
-  animation: $intro-transition;
-  -webkit-animation-delay: 0.45s;
-  animation-delay: 0.45s;
   background-color: $footer-background-color;
+  max-width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 70%;
 
-  footer {
-    @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    max-width: 100%;
-    padding: 0 1em 2em;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
+  @include breakpoint($x-large) {
+    max-width: $x-large;
   }
 
   a {
-    color: inherit;
     text-decoration: none;
 
     &:hover {
@@ -60,10 +48,8 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: 0;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
     text-transform: uppercase;
   }
 

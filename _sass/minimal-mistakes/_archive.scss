@@ -3,11 +3,7 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
-  margin-bottom: 2em;
-
   @include breakpoint($large) {
-    float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
@@ -19,7 +15,7 @@
 }
 
 .archive__item {
-  position: relative;
+  position: static;
 
   a {
     position: relative;
@@ -52,7 +48,6 @@
 
   a[rel="permalink"]::before {
     content: '';
-    position: absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -442,17 +437,17 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
-  .archive {
-    @include breakpoint($large) {
-      padding-right: 0;
-    }
+// .wide {
+//   .archive {
+//     @include breakpoint($large) {
+//       padding-right: 10px;
+//     }
 
-    @include breakpoint($x-large) {
-      padding-right: 0;
-    }
-  }
-}
+//     @include breakpoint($x-large) {
+//       padding-right: 10px;
+//     }
+//   }
+// }
 
 /* Place inside a single layout */
 

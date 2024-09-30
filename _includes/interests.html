@@ -1,0 +1,61 @@
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+{% assign mine = site.mine | default site.mine %}
+
+<div class="table-section">
+  <div class="heading"><h4>{{ author.name }}'s Interests</h4></div>
+  <div class="inner">
+    <table class ="details-table" cellspacing="3" cellpadding="3">
+        <tbody>
+            <tr>
+                <td>
+                    <p>General</p>
+                </td>
+                <td>
+                    <p>{{ mine.interests.general }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Music</p>
+                </td>
+                <td>
+                    <p>{{ mine.interests.music }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Movies</p>
+                </td>
+                <td>
+                    <p>{{ mine.interests.movies }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Television</p>
+                </td>
+                <td>
+                    <p>{{ mine.interests.television }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Books</p>
+                </td>
+                <td>
+                    <p>{{ mine.interests.books }}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Heroes</p>
+                </td>
+                <td>
+                    <p>{{ mine.interests.heroes }}</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>

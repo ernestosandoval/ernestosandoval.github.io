@@ -24,6 +24,7 @@
   </div>
 
   <div class="mood">
+    <p><b>Mood:</b> {{ site.mine.mood }}</p>
     <p><b>
       View my: <a href="/gallery" rel="permalink"><b>pics</b></a>
     </b></p>
@@ -255,6 +256,7 @@
   {% if site.mine.song %}
     <audio src="{{ site.mine.song | relative_url }}" controls class="my__audio"></audio>
   {% endif %}
+  {% include interests.html %}
 </div>
 
 <script src="../assets/js/mine.js"></script>

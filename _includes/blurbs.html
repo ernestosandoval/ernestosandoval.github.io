@@ -1,3 +1,5 @@
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
 {% assign mine = site.mine | default site.mine %}
 
 <div class="blurbs">

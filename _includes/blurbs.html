@@ -1,22 +1,14 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
-{% assign mine = site.mine | default site.mine %}
 
 <div class="blurbs">
   <div class="heading"><h4>{{ author.name }}'s Blurbs</h4></div>
   <div class="inner">
-    {% if mine.blurbs.bio %}
-      <div class="section">
-        <h4>About me:</h4>
-        {{ mine.blurbs.bio | markdownify }}
-      </div>
-    {% endif %}
-
-    {% if mine.blurbs.bio %}
-      <div class="section">
-        <h4>Who I'd like to meet:</h4>
-        {{ mine.blurbs.meet | markdownify }}
-      </div>
-    {% endif %}
+    {% for blurb in author.blurbs %}
+    <div class="section">
+      <h4>{{blurb.label}}:</h4>
+      {{ blurb.content | markdownify }}
+    </div>
+    {% endfor %}
   </div>
 </div>

@@ -107,9 +107,28 @@ author:
   name             : "Ernesto Sandoval"
   first_name       : "Ernesto"
   avatar           : "/assets/images/avatar.png"
-  bio              : "My name is Ernesto. This is my site. Made using Jekyll and Minimal Mistakes."
+  bio              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   location         : "🇺🇸"
   email            :
+  mood: "Lorem ipsum!"
+  interests:
+    - label: "General"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    - label: "Music"
+      content: ""
+    - label: "Movies"
+      content: ""
+    - label: "Television"
+      content: ""
+    - label: "Books"
+      content: "Lorem ipsum!"
+    - label: "Heroes"
+      content: ""
+  blurbs:
+    - label: "About me"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    - label: "Who I'd like to meet"
+      content: "Lorem ipsum dolor sit amet!"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -301,23 +320,3 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
-
-mine:
-  # song             : "/assets/audio/song.m4a"
-  blurbs:
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    meet: "Lorem ipsum dolor sit amet!"
-  mood: "Lorem ipsum!"
-  interests:
-    - label: "General"
-      content: ""
-    - label: "Music"
-      content: ""
-    - label: "Movies"
-      content: ""
-    - label: "Television"
-      content: ""
-    - label: "Books"
-      content: ""
-    - label: "Heroes"
-      content: ""

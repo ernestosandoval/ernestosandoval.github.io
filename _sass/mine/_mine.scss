@@ -141,6 +141,10 @@ footer p {
   margin: 0 0 8px 0;
 }
 
+.profile .contact .heading h4, .profile .table-section .heading h4 {
+  display: inline-block;
+}
+
 .profile .contact, .profile .table-section {
   border: 2px solid $border-color;
   margin: 10px 0;
@@ -153,6 +157,7 @@ footer p {
 }
 
 .details-table td:first-child {
+  font-weight: bold;
   width: 33%;
 }
 

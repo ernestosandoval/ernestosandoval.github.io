@@ -25,7 +25,6 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
 
@@ -160,7 +159,6 @@
 .author__urls-wrapper {
   position: static;
   vertical-align: middle;
-  font-family: $sans-serif;
 
   li:last-child {
     a {
@@ -283,7 +281,6 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    font-size: $type-size-5;
     text-decoration: none;
 
     &:hover {

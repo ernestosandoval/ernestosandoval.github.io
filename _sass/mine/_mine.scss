@@ -104,11 +104,17 @@ main {
   font-size: 80%;
 }
 
-main .left, main .right {
+main .left {
   padding: 10px;
 }
 
-@media (min-width: 30em) {
+main .right {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: $large) {
   .row {
     width: 100%;
     display: table;

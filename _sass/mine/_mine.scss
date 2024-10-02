@@ -65,6 +65,10 @@
   }
 }
 
+p, ul:not(nav .links):not(footer .links) li{
+  font-size: max(0.875em, 12px);
+}
+
 nav {
   color: $background-color;
   font-size: max(72%, 12px);
@@ -83,6 +87,11 @@ nav .top a {
 nav .links {
   background: $border-color;
   padding: 3.5px 16px;
+}
+
+footer .links {
+  font-size: 0.875em;
+  margin: 16px 0 5px 0;
 }
 
 nav .links li {
@@ -108,7 +117,85 @@ main .left, main .right {
   padding: 10px;
 }
 
-@media (min-width: $large) {
+footer p {
+  margin: 10px 0 5px 0;
+  font-size: 90%;
+}
+
+.profile h1 {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+.general-about .profile-pic {
+  float: left;
+  margin: 0 15px 8px 0;
+}
+
+.profile .mood {
+  width: 100%;
+  display: inline-block;
+}
+
+.profile .mood p {
+  margin: 0 0 8px 0;
+}
+
+.profile .contact, .profile .table-section {
+  border: 2px solid $border-color;
+  margin: 10px 0;
+}
+
+.profile .contact .heading, .profile .table-section .heading {
+  background: $border-color;
+  color: $background-color;
+  padding: 2px 7px;
+}
+
+.details-table td:first-child {
+  width: 33%;
+}
+
+.details-table td {
+  vertical-align: top;
+}
+
+.details-table td p {
+  margin: 0;
+}
+
+.profile .blurbs .heading h4 {
+  margin: 0;
+}
+
+.profile .blurbs {
+  margin: 20px 0;
+}
+
+.profile .blurbs .heading {
+  background: $primary-color;
+  color: $link-color-hover;
+  padding: 2px 7px;
+}
+
+.profile .blurbs .inner {
+  padding: 7px;
+}
+
+.profile .blurbs .section {
+  margin-bottom: 14px;
+}
+
+.profile .blurbs .section h4 {
+  margin: 0;
+  color: $link-color-hover;
+}
+
+.profile .blurbs .section p {
+  margin: 0 0 8px 0;
+}
+
+@media (min-width: 30em) {
   .row {
     width: 100%;
     display: table;
@@ -117,10 +204,8 @@ main .left, main .right {
   .col {
     display: table-cell;
     vertical-align: top;
+  }  
+  .col.w-40 {
+    width: 40%;
   }
-}
-
-.profile h1 {
-  font-size: 1.5em;
-  margin: 0 0 10px 0;
 }

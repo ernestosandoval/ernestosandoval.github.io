@@ -104,14 +104,8 @@ main {
   font-size: 80%;
 }
 
-main .left {
+main .left, main .right {
   padding: 10px;
-}
-
-main .right {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
 }
 
 @media (min-width: $large) {

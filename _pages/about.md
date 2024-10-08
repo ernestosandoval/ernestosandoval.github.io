@@ -2,6 +2,4 @@
 title: "About"
 permalink: /about/
 ---
-My name is Ernesto. This is my site. Made using Jekyll and Minimal Mistakes. 
-
-😎
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

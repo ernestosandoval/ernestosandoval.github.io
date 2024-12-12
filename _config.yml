@@ -104,8 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  first_name       : "Your Name"
+  name             : "Ernesto Sandoval"
+  first_name       : "Ernesto"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   location         : "🇺🇸"

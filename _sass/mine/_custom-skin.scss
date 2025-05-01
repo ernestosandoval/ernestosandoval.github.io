@@ -1,0 +1,50 @@
+$grey: #2f2f2f;
+$beige: #f6edd9;
+$green-dark: #00712A;
+$green-medium: #54b063;
+$green-light: #75d081;
+$muted-green-dark: #2b4c41;
+$muted-green-light: #5a7d71;
+$muted-purple-dark: #464453;
+$muted-purple-light: #8083ff;
+
+$background-color: $muted-purple-dark;
+$foreground-color: $grey;
+$text-color: $beige;
+$border-color: $green-medium;
+$link-color: $green-medium;
+$link-color-hover: $green-light;
+
+$nav-top-color: $green-dark;
+$details-table-left-color: $muted-green-dark;
+$details-table-color: $muted-green-light;
+$right-heading-background-color: $muted-purple-dark;
+$right-heading-color: $muted-purple-light;
+
+$left-heading-color: $beige;
+$nav-title-color: $beige;
+$nav-links-color: $beige;
+$muted-text-color: $beige;
+
+
+
+.top {
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+}
+
+main {
+    border: 5px double $border-color;
+}
+
+.container {
+    margin-top: 1em;
+}
+
+div.highlighter-rouge,
+figure.highlight {
+    border: 2px solid $border-color;
+}

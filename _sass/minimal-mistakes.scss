@@ -6,6 +6,7 @@
 
 /* Variables */
 @import "minimal-mistakes/variables";
+@import "mine/custom-skin";
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
@@ -40,3 +41,4 @@
 @import "minimal-mistakes/print";
 
 @import "mine/mine";
+@import "mine/custom-skin";

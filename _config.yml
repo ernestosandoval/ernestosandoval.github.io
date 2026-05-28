@@ -19,13 +19,8 @@ locale                   : "en-US"
 title                    : "My Site"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-<<<<<<< HEAD
 name                     : "Ernesto Sandoval"
 description              : "An amazing website."
-=======
-name                     : "Your Name"
-description              : "Website description."
->>>>>>> upstream/master
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ernestosandoval/ernestosandoval.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

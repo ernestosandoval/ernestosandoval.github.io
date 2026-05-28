@@ -10,4 +10,5 @@ permalink: /projects/
 
 ## More
 - [Birds Machine Learning Model](https://github.com/ernestosandoval/jupyter-notebooks/blob/main/birds.ipynb)
+- [Mine Flip (Android)](https://github.com/ernestosandoval/MineFlip)
 - [Paxos Coin](https://github.com/ernestosandoval/PaxosCoin)

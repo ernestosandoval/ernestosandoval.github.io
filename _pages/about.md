@@ -2,4 +2,11 @@
 title: "About"
 permalink: /about/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Welcome to my site! Does it look familiar? 
+
+Here are some of my favorite projects:
+- [This site's repo](https://github.com/ernestosandoval/ernestosandoval.github.io)
+- [Birds Machine Learning Model](https://github.com/ernestosandoval/jupyter-notebooks/blob/main/birds.ipynb)
+
+For a complete list of projects [click here](/projects/).

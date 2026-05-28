@@ -10,6 +10,8 @@ main:
     url: /posts/
   - title: "Pics"
     url: /gallery/
+  - title: "Projects"
+    url: /projects/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
